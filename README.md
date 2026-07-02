@@ -4,7 +4,7 @@ A single-card, swipe-only portfolio experience. Instead of scrolling, you swipe
 through cards like a deck — Intro, Tech Stack, Projects, About, Education, Connect —
 with cinematic GSAP intro/outro animations tying it all together.
 
-**Live site:** [add your Vercel URL here]
+**Live site:** [portfolio-mu-cyan-y5y2hhx6bu.vercel.app](https://portfolio-mu-cyan-y5y2hhx6bu.vercel.app/)
 **Resume:** [public/Yug_Patel_Resume.pdf](public/Yug_Patel_Resume.pdf)
 
 ![Tech Stack](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
