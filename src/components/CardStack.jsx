@@ -238,6 +238,21 @@ export default function CardStack() {
     controls.start({ ...CENTER, transition: SPRING_SETTLE });
   }, [controls]);
 
+  // Keyboard fallback: Right Arrow / Enter / Space advance the deck, same
+  // as a left swipe. Keeps the deck usable without a touchpad or finger.
+  useEffect(() => {
+    if (showSummary) return;
+    const onKeyDown = (e) => {
+      if (e.target instanceof HTMLElement && e.target.closest("a,button,input,textarea")) return;
+      if (e.key === "ArrowRight" || e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        advance();
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [advance, showSummary]);
+
   const handleSummaryComplete = useCallback(() => {
     pendingEntranceRef.current = true;
     setShowSummary(false);
@@ -268,7 +283,9 @@ export default function CardStack() {
 
       {showSummary && <SummaryAnimation onComplete={handleSummaryComplete} />}
 
-      {!showSummary && <Footer hasSwipedOnce={hasSwipedOnce} isConnectCard={isConnectCard} />}
+      {!showSummary && (
+        <Footer hasSwipedOnce={hasSwipedOnce} isConnectCard={isConnectCard} onNext={advance} />
+      )}
     </div>
   );
 }
