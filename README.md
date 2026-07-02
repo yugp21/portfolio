@@ -81,7 +81,7 @@ src/
 
 ### Flow
 
-Opening Animation → Intro → Tech Stack → Projects → About → Education →
+Opening Animation → Intro → Tech Stack → Projects → Education → About →
 Connect → Summary Animation → back to Intro (infinite loop).
 
 ### Swipe behavior
