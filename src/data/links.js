@@ -4,7 +4,7 @@ export const LINKS = {
   email: "mailto:yugpatel213006@gmail.com",
   leetcode: "https://leetcode.com/u/yugp21/",
   x: "https://x.com/yugpatel__",
-  resume: "/resume/Yug_Patel_Resume.pdf",
+  resume: "/Yug_Patel_Resume.pdf",
 };
 
 export const PROJECT_LINKS = {

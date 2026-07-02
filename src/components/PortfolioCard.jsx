@@ -90,7 +90,7 @@ export default function PortfolioCard({ children, eyebrow, title, controls, onDr
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         className="scroll-fade mt-5 min-h-0 flex-1 overflow-y-auto overscroll-contain pr-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mt-6"
-        style={{ WebkitUserSelect: "text", userSelect: "text" }}
+        style={{ WebkitUserSelect: "text", userSelect: "text", touchAction: "pan-y" }}
       >
         {children}
       </div>
