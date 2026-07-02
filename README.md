@@ -5,7 +5,7 @@ through cards like a deck — Intro, Tech Stack, Projects, About, Education, Con
 with cinematic GSAP intro/outro animations tying it all together.
 
 **Live site:** [add your Vercel URL here]
-**Resume:** [add direct resume link here]
+**Resume:** [public/Yug_Patel_Resume.pdf](public/Yug_Patel_Resume.pdf)
 
 ![Tech Stack](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
@@ -104,6 +104,6 @@ Connect → Summary Animation → back to Intro (infinite loop).
 
 ## Connect
 
-- GitHub: [your GitHub]
-- LinkedIn: [your LinkedIn]
-- LeetCode: [your LeetCode]
+- GitHub: [github.com/yugp21](https://github.com/yugp21)
+- LinkedIn: [linkedin.com/in/yug-patel-8aa38628a](https://www.linkedin.com/in/yug-patel-8aa38628a/)
+- LeetCode: [leetcode.com/u/yugp21](https://leetcode.com/u/yugp21)
